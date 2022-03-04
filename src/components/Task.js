@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Task = () => {
+export const Task = ({text}) => {
   return (
     <div className='task-item'>
         
@@ -11,7 +11,9 @@ export const Task = () => {
 
         </div>
 
-        <div className=''> </div>
+        <div className='task-text'> 
+            <p> {text} </p>
+        </div>
     
     </div>
   )
