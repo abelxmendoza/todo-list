@@ -47,7 +47,7 @@ Todos for Todo AppPart 1:
       <div className = "container"> 
         <div className='header'>
           <h1>TODO</h1>
-          <img src = "/home/firefistabel/github/todo-list/public/images/icon-moon.svg"></img>
+          <img src = "public/images/icon-sun.svg" alt = 'sun'/>
         </div>
        
        <TaskInput setTasks = {setTasks} tasks = {tasks}/>
